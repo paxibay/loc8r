@@ -33,6 +33,24 @@
   <ItemGroup>
     <Content Include="boot\www" />
     <Content Include="package.json" />
+    <Content Include="Procfile" />
+    <Content Include="public\bootstrap\css\amelia.bootstrap.css" />
+    <Content Include="public\bootstrap\css\amelia.bootstrap.min.css" />
+    <Content Include="public\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="public\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="public\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="public\bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="public\bootstrap\css\bootstrap.css" />
+    <Content Include="public\bootstrap\css\bootstrap.css.map" />
+    <Content Include="public\bootstrap\css\bootstrap.min.css" />
+    <Content Include="public\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="public\bootstrap\css\readme.md" />
+    <Content Include="public\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="public\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="public\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="public\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="public\javascripts\jquery-1.12.0.min.map" />
     <Content Include="public\stylesheets\style.css" />
     <Content Include="README.md" />
     <Content Include="app_server\views\index.jade" />
@@ -44,8 +62,11 @@
     <Folder Include="app_server\models\" />
     <Folder Include="boot\" />
     <Folder Include="public\" />
-    <Folder Include="public\images\" />
+    <Folder Include="public\bootstrap\css\" />
+    <Folder Include="public\bootstrap\fonts\" />
+    <Folder Include="public\bootstrap\js\" />
     <Folder Include="public\javascripts\" />
+    <Folder Include="public\bootstrap\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="app_server\routes\" />
     <Folder Include="app_server\views\" />
@@ -55,6 +76,11 @@
     <Compile Include="app_server\controllers\main.js" />
     <Compile Include="app_server\routes\index.js" />
     <Compile Include="app_server\routes\users.js" />
+    <Compile Include="public\bootstrap\js\bootstrap.js" />
+    <Compile Include="public\bootstrap\js\bootstrap.min.js" />
+    <Compile Include="public\bootstrap\js\npm.js" />
+    <Compile Include="public\javascripts\jquery-1.12.0.js" />
+    <Compile Include="public\javascripts\jquery-1.12.0.min.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
